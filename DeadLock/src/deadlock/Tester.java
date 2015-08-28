@@ -7,12 +7,17 @@ import java.util.logging.Logger;
 public class Tester {
   public static void main(String[] args) {
     try {
+        
+      
+        
       ResourceContainer resources = new ResourceContainer();
       ResourceUser1 t1 = new ResourceUser1(resources);
       ResourceUser2 t2 = new ResourceUser2(resources);
       t1.start();
       t2.start();
           
+      new Thread(new DeadLockDetector()).start();
+      
       t1.join();
       t2.join();
       
