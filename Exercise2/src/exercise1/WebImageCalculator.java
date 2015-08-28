@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercise2;
+package exercise1;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

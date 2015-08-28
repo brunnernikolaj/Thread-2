@@ -3,27 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercise2;
+package exercise1;
 
 /**
  *
  * @author Nikolaj
  */
-public class Exercise2 {
+public class Exercise1 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) throws InterruptedException {
-//        WebImageCalculator task = new WebImageCalculator("https://fronter.com/cphbusiness/design_images/images.php/Classic/login/fronter_big-logo.png");
-//        
-//        Thread t = new Thread(task);
-//        
-//        t.start();
-//        t.join();
-//        
-//        System.out.print(task.getSum());
-
         System.out.println("Avilable Processors: " + Runtime.getRuntime().availableProcessors());
 
          WebTester tester = new WebTester();

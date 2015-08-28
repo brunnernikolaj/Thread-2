@@ -1,2 +1,0 @@
-deadlock.Philosopher
-deadlock.DiningPhilosophers
